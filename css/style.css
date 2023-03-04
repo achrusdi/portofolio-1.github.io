@@ -1,0 +1,57 @@
+#profile-img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: 0% 50%;
+  filter: brightness(80%);
+}
+
+
+
+
+
+/* from other */
+
+.badge {
+  --bs-badge-padding-x: 0.65em;
+  --bs-badge-padding-y: 0.35em;
+  /* --bs-badge-font-size: 0.75em; */
+  --bs-badge-font-weight: 700;
+  --bs-badge-color: #fff;
+  --bs-badge-border-radius: 0.375rem;
+  display: inline-block;
+  padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+  font-size: var(--bs-badge-font-size);
+  font-weight: var(--bs-badge-font-weight);
+  line-height: 1;
+  color: var(--bs-badge-color);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: initial;
+  border-radius: var(--bs-badge-border-radius);
+}
+
+.rounded-pill {
+  border-radius: 50rem !important;
+}
+
+.text-light {
+  --bs-text-opacity: 1;
+  color: rgba(248, 249, 250, var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
+}
+
+.bg-blue {
+  --bs-bg-opacity: 1;
+  background-color: rgba(137, 170, 228, var(--bs-bg-opacity)) !important;
+}
+
+.role {
+  margin-bottom: 15px;
+}
+
+.list {
+  font-size: 1.3rem;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}

@@ -54,6 +54,7 @@ Have fun creating your portfolio on this template!!! -->
 
   <!-- link tags -->
   <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <script src="./javascript/scrollreveal.min.js"></script>
   <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
@@ -64,9 +65,9 @@ Have fun creating your portfolio on this template!!! -->
   <div id="hero">
     <section class="container">
       <h1 class="hero-title">
-        Hi, my name is <span class="text-color-main name">Your Name</span>
+        Hi, my name is <span class="text-color-main name">Ach. Rusdi</span>
         <br />
-        I'm the Unknown Developer.
+        I'm the Back-End Developer.
       </h1>
       <p class="hero-cta">
         <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
@@ -84,23 +85,19 @@ Have fun creating your portfolio on this template!!! -->
       <h2 class="section-title">About Me</h2>
       <div class="row about-wrapper">
         <div class="about-wrapper__image">
-          <img class="img-fluid" src="./assets/profile.png" alt="Profile Image" />
+          <img class="img-fluid" src="./assets/myImg2.jpg" id="profile-img" alt="Profile Image" />
+          <!-- <img class="img-fluid" src="./assets/profile.png" alt="Profile Image" /> -->
         </div>
         <div class="about-wrapper__info">
           <p class="about-wrapper__info-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Temporibus quae repellat, ad omnis distinctio velit saepe expedita
-            architecto cumque veritatis adipisci. Sapiente non, saepe hic
-            adipisci doloribus quisquam recusandae et.
-          </p>
-          <p class="about-wrapper__info-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-            obcaecati doloribus qui praesentium quae veniam esse mollitia
-            consequuntur nisi minima quasi et fugit quidem enim recusandae
-            delectus, iusto culpa rerum?
+            Full-stack developer experienced in developing and maintaining web and mobile applications in 4 projects
+            worked on. Have good skills in using programming languages such as PHP, Dart, and JavaScript, and have an
+            understanding of technologies such as React Native, Node.js, CodeIgniter, Flutter and Laravel. Committed to
+            completing projects on time and ensuring the quality of the applications developed
           </p>
           <span class="about-wrapper__cta">
-            <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+            <a href="https://drive.google.com/file/d/1c2vIQ0Ge8o-Go2ag6zqrzoVNZOohGAb9/view?usp=share_link"
+              target="_blank" class="cta-btn cta-btn--resume">View Resume</a>
           </span>
         </div>
       </div>
@@ -115,26 +112,39 @@ Have fun creating your portfolio on this template!!! -->
         <h2 class="section-title dark-blue-text">Projects</h2>
 
         <!-- Each .row is a project -->
+
         <article class="row">
           <div class="project-wrapper__text">
-            <h3 class="project-wrapper__text-title">Project Title</h3>
+            <h3 class="project-wrapper__text-title">Information System for Admission of New Students</h3>
             <p class="project-wrapper__text-info">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-              necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-              sint saepe nostrum! Enim, perferendis.
+              The information system handles the registration of new students at school, and can manage information
+              (registration information, bank data, departments). This website is built using PHP with the Laravel
+              framework.
             </p>
-            <div class="project-wrapper__text-btns">
+            <p class="project-wrapper__text-info">
+              <b>
+                Responsible for:
+              </b>
+            <ol class="list">
+              <li>Develop MVC-based web applications using the PHP programming language with Laravel 9</li>
+              <li>Communicate with clients to understand their needs and resolve technical issues as they arise</li>
+            </ol>
+            </p>
+            <div class="role">
+              <span class="badge rounded-pill text-light bg-blue" style="padding: 5px 10px; margin: 5px;">Full-Stack Web
+                Developer</span>
+            </div>
+            <!-- <div class="project-wrapper__text-btns">
               <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
                 Live</a>
               <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
-            </div>
+            </div> -->
           </div>
 
           <div class="project-wrapper__image">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="#" rel="noopener noreferrer">
               <div class="thumbnail rounded">
-                <img src="./assets/project.png" class="img-fluid" alt="Project Image" />
+                <img src="./assets/projects/SS-PPDB.png" class="img-fluid" alt="Project Image" />
               </div>
             </a>
           </div>
@@ -144,24 +154,44 @@ Have fun creating your portfolio on this template!!! -->
         <!-- Each .row is a project -->
         <article class="row">
           <div class="project-wrapper__text">
-            <h3 class="project-wrapper__text-title">Project Title</h3>
+            <h3 class="project-wrapper__text-title">Paktomi</h3>
             <p class="project-wrapper__text-info">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-              necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-              sint saepe nostrum! Enim, perferendis.
+              The application consists of providing information about Tuberculosis, early detection screening
+              examination, and drug compliance management that can be followed by patients and families independently.
+              The main features of the application are screening, education, and drug management. This system has a
+              website built with PHP using the Laravel framework and also has mobile apps created using the Flutter
+              framework.
             </p>
-            <div class="project-wrapper__text-btns">
+            <p class="project-wrapper__text-info">
+              <b>
+                Responsible for:
+              </b>
+            <ol class="list">
+              <li>Develop MVC-based web applications using the PHP programming language and Laravel 8.</li>
+              <li>Collaborate with the team to complete projects on time and ensure the quality of the applications
+                developed</li>
+              <li>Develop API using laravel 8</li>
+              <li>Develop flutter application using the dart programming language with flutter</li>
+              <li>Communicate with clients to understand their needs and resolve technical issues as they arise</li>
+            </ol>
+            </p>
+            <div class="role">
+              <span class="badge rounded-pill text-light bg-blue" style="padding: 5px 10px; margin: 5px;">Full-Stack Web
+                Developer</span>
+              <span class="badge rounded-pill text-light bg-blue" style="padding: 5px 10px; margin: 5px;">Android
+                Developer</span>
+            </div>
+            <!-- <div class="project-wrapper__text-btns">
               <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
                 Live</a>
               <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
-            </div>
+            </div> -->
           </div>
 
           <div class="project-wrapper__image">
             <a href="#" target="_blank" rel="noopener noreferrer">
               <div class="thumbnail rounded">
-                <img src="./assets/project.png" class="img-fluid" alt="Project Image" />
+                <img src="./assets/projects/SS-paktomi.png" class="img-fluid" alt="Paktomi" />
               </div>
             </a>
           </div>
@@ -171,24 +201,83 @@ Have fun creating your portfolio on this template!!! -->
         <!-- Each .row is a project -->
         <article class="row">
           <div class="project-wrapper__text">
-            <h3 class="project-wrapper__text-title">Project Title</h3>
+            <h3 class="project-wrapper__text-title">Village management website</h3>
             <p class="project-wrapper__text-info">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-              necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-              sint saepe nostrum! Enim, perferendis.
+              The Village management website is built using PHP with CodeIgniter 4 framework. This website
+              consists of information about announcements, management of incoming and outgoing mail, and village
+              resident management.
             </p>
-            <div class="project-wrapper__text-btns">
+            <p class="project-wrapper__text-info">
+              <b>
+                Responsible for:
+              </b>
+            <ol class="list">
+              <li>Develop MVC-based web applications using the PHP programming language with Codeigniter 4.
+              <li>Collaborate with the team to complete projects on time and ensure the quality of the applications
+                developed
+              </li>
+              <li>Communicate with clients to understand their needs and resolve technical issues as they arise</li>
+              </li>
+            </ol>
+            </p>
+            <div class="role">
+              <span class="badge rounded-pill text-light bg-blue" style="padding: 5px 10px; margin: 5px;">Full-Stack Web
+                Developer</span>
+            </div>
+            <!-- <div class="project-wrapper__text-btns">
               <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
                 Live</a>
               <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
-            </div>
+            </div> -->
           </div>
 
           <div class="project-wrapper__image">
             <a href="#" target="_blank" rel="noopener noreferrer">
               <div class="thumbnail rounded">
-                <img src="./assets/project.png" class="img-fluid" alt="Project Image" />
+                <img src="./assets/projects/SS-rtwonorejo.png" class="img-fluid" alt="Project Image" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Meeting Management Website</h3>
+            <p class="project-wrapper__text-info">
+              This website is designed to manage meetings and meeting minutes. It includes features such as automatic
+              room conflict checking, equipment availability checking, and easy recording and viewing of meeting results
+              according to preferences.
+            </p>
+            <p class="project-wrapper__text-info">
+              <b>
+                Responsible for:
+              </b>
+            <ol class="list">
+              <li>Develop MVC-based web applications using the PHP programming language with Codeigniter 4.
+              <li>Collaborate with the team to complete projects on time and ensure the quality of the applications
+                developed
+              </li>
+              <li>Communicate with clients to understand their needs and resolve technical issues as they arise</li>
+              </li>
+            </ol>
+            </p>
+            <div class="role">
+              <span class="badge rounded-pill text-light bg-blue" style="padding: 5px 10px; margin: 5px;">Full-Stack Web
+                Developer</span>
+            </div>
+            <!-- <div class="project-wrapper__text-btns">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+            </div> -->
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="./assets/projects/SS-manmeet.png" class="img-fluid" alt="Project Image" />
               </div>
             </a>
           </div>
@@ -204,8 +293,9 @@ Have fun creating your portfolio on this template!!! -->
     <div class="container">
       <h2 class="section-title">Contact</h2>
       <div class="contact-wrapper">
-        <p class="contact-wrapper__text">[Put your call to action here]</p>
-        <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
+        <p class="contact-wrapper__text">Let's build amazing things together.</p>
+        <a href="mailto:ach.rusdhaini@gmail.com?subject=Let's work together" class="cta-btn cta-btn--resume">let's work
+          together</a>
       </div>
     </div>
   </section>
@@ -218,27 +308,25 @@ Have fun creating your portfolio on this template!!! -->
         <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
       </a>
       <div class="social-links">
-        <a href="#!" target="_blank" rel="noopener noreferrer" aria-label="twitter">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a href="#!" target="_blank" rel="noopener noreferrer" aria-label="instagram">
+        <a href="https://www.instagram.com/arusalq/" target="_blank" rel="noopener noreferrer" aria-label="instagram">
           <i class="fa fa-instagram"></i>
         </a>
-        <a href="#!" target="_blank" rel="noopener noreferrer" aria-label="codepen">
-          <i class="fa fa-codepen"></i>
-        </a>
-        <a href="#!" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
+        <a href="https://www.linkedin.com/in/ach-rusdie/" target="_blank" rel="noopener noreferrer"
+          aria-label="linkedin">
           <i class="fa fa-linkedin"></i>
         </a>
-        <a href="#!" target="_blank" rel="noopener noreferrer" aria-label="github">
+        <a href="https://github.com/achrusdi" target="_blank" rel="noopener noreferrer" aria-label="github">
           <i class="fa fa-github"></i>
         </a>
       </div>
       <hr />
       <p class="footer__text">
-        &copy; <span id="year"></span> - Template by
+        <!-- &copy; <span id="year"></span> - Template by
         <a href="https://github.com/AnilSeervi" target="_blank" rel="noopener noreferrer">Anil Seervi</a>. <br />Made
-        with &hearts;
+        with &hearts; -->
+        &copy; <span id="year"></span> - <a href="https://github.com/achrusdi" target="_blank"
+          rel="noopener noreferrer">Ach. Rusdi</a> <br>
+        Using <a href="https://github.com/AnilSeervi/DevFolio">Template</a>
       </p>
     </div>
   </footer>
